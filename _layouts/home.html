@@ -37,11 +37,11 @@
 
   <div class="unslider">
     <div class="automatic-slider unslider-horizontal" style="position: relative; overflow: hidden;">
-      <ul class="unslider-wrap unslider-carousel" style="width: 200%; left: 0px;">
-        {% for post in site.posts limit: 10 %}
-        {% assign loopindex = forloop.index | modulo: 5 %}
+      <ul class="unslider-wrap unslider-carousel" style="width: 300%; left: 0px;">
+        {% for post in site.posts limit: 12 %}
+        {% assign loopindex = forloop.index | modulo: 4 %}
         {% if loopindex == 1 %}
-        <li style="width: 50%;">
+        <li style="width: 33.33%;">
           {% endif %}
           <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
             <!-- <a class="slideshow-anchor" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"> -->
