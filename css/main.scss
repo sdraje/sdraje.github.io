@@ -72,12 +72,12 @@ ul.unslider-wrap.unslider-carousel {
 }
 
 .sliding-menu-button {
-  position: absolute !important;
+  position: absolute;
 }
 
 .sliding-menu-button.slide {
   transform: translateX(0) !important;
-  position: absolute;
+  position: fixed;
 }
 
 .sliding-menu-content .menu-item .title {
