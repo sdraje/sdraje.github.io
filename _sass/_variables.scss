@@ -1,13 +1,17 @@
 /* ==========================================================================
-   SCSS Variables
-   ========================================================================== */
+SCSS Variables
+========================================================================== */
 
 /*
-   Typography variables
-   ========================================================================== */
+Typography variables
+========================================================================== */
 
-$base-font                   	: Georgia,Times,"Times New Roman",serif;
-$heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
+
+// $base-font                   	: Georgia,Times,"Times New Roman",serif;
+// $heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
+
+$base-font                   	: 'Raleway', sans-serif;
+$heading-font                	: 'Raleway', sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
@@ -18,8 +22,8 @@ $doc-line-height             	: 24;
 $border-radius               	: 3px;
 
 /*
-   Color variables
-   ========================================================================== */
+Color variables
+========================================================================== */
 
 $white                        : #fff;
 $black                        : #000;
@@ -63,8 +67,8 @@ $youtube-color		            : #ff3333;
 
 
 /*
-   Form variables
-   ========================================================================== */
+Form variables
+========================================================================== */
 
 $form-border-color           	: $border-color;
 $form-border-color-hover     	: darken($border-color, 10);
@@ -77,8 +81,8 @@ $form-font-size              	: $doc-font-size;
 
 
 /*
-   Sliding menu navigation variables
-   ========================================================================== */
+Sliding menu navigation variables
+========================================================================== */
 
 $sliding-menu-border-color	 	 : $black;
 $sliding-menu-background 		   : $black;
@@ -91,8 +95,8 @@ $transition						         : 0.3s; // increase this to see the transformations in
 $sliding-menu-animation        : all 500ms cubic-bezier(.86,.01,.77,.78);
 
 /*
-   Badge variables
-   ========================================================================== */
+Badge variables
+========================================================================== */
 
 $badge-background              : $primary-color;
 $badge-dark-color              : $black;
@@ -104,7 +108,7 @@ $badge-font-color              : $white;
 
 
 /*
-   Masthead variables
-   ========================================================================== */
+Masthead variables
+========================================================================== */
 
-$masthead-height: $button-size * 2;
+$masthead-height: $button-size * 3;

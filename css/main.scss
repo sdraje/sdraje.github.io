@@ -3,19 +3,19 @@ sitemap: false
 ---
 
 /*
- *
- *  Skinny Bones Jekyll Starter
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
+*
+*  Skinny Bones Jekyll Starter
+*
+*  Designer: Michael Rose
+*  Twitter: http://twitter.com/mmistakes
+*
 */
 
 @import "variables";
 
 /*
-   Vendor
-   ========================================================================== */
+Vendor
+========================================================================== */
 
 @import "vendor/bourbon/bourbon";
 @import "grid-settings";
@@ -23,16 +23,16 @@ sitemap: false
 @import "vendor/font-awesome/font-awesome";
 
 /*
-   Global
-   ========================================================================== */
+Global
+========================================================================== */
 
 @import "mixins";
 @import "reset";
 @import "base";
 
 /*
-   Components
-   ========================================================================== */
+Components
+========================================================================== */
 
 @import "helpers";
 @import "buttons";
@@ -49,7 +49,51 @@ sitemap: false
 @import "syntax";
 
 /*
-   Page specific
-   ========================================================================== */
+Page specific
+========================================================================== */
 
 @import "layout";
+
+@import "vendor/unslider/unslider";
+
+ul.unslider-wrap.unslider-carousel {
+  text-align: center;
+  a {
+    text-decoration: none;
+    position: relative;
+    .slideshow-div {
+      background-position: center;
+      background-size: cover;
+      display: inline-block;
+      width: 18vw;
+      height: calc(18vw * 1.5)
+    }
+  }
+}
+
+.sliding-menu-button {
+  position: absolute !important;
+}
+
+.sliding-menu-button.slide {
+  transform: translateX(0) !important;
+  position: absolute;
+}
+
+.sliding-menu-content .menu-item .title {
+  margin: 0;
+}
+
+@media screen and (min-width: 37.5em) {
+
+}
+
+
+@media screen and (min-width: 37.5em) {
+  .sliding-menu-content .menu-item .title {
+    margin: 0;
+  }
+  .sliding-menu-content {
+      width: 25em;
+  }
+}

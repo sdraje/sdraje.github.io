@@ -16,6 +16,10 @@
 	}
 	.inner-wrap {
 		@include outer-container;
+    margin: {
+      left: 0;
+      right: 0;
+    }
 	}
 }
 .site-title {
@@ -23,7 +27,7 @@
 	@include media($large) {
 		@include span-columns(4);
 	}
-	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
+	// padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
 	color: $black;
@@ -32,6 +36,10 @@
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
+
+  img {
+    max-height: 100%;
+  }
 }
 
 
