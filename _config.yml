@@ -29,15 +29,15 @@ gems:
 - jekyll-gist
 - jekyll-feed
 owner:
-  name: Michael Rose
-  web: https://mademistakes.com
-  twitter: mmistakes
-  bio: Just another boring, tattooed, time traveling designer.
+  name: Alfredo Maria Milano
+  web: https://alfredomariamilano.com
+  twitter: alfmarmil
+  bio: Nope, not going tosay anything.
   avatar: bio-photo.jpg
   google:
-    plus: "+MichaelRoseDesign"
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 3049671934
+    plus:
+    ad-client:
+    ad-slot:
   disqus-shortname:
 include:
 - ".htaccess"

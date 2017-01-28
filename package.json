@@ -1,10 +1,10 @@
 {
-  "name": "skinny-bones-jekyll",
+  "name": "TCBPR",
   "version": "1.0.0",
   "private": true,
-  "description": "A Jekyll starter site",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mademistakes.com/",
+  "description": "Taking Care of Business Public Relations",
+  "author": "Alfredo Maria Milano <alfmarmil@gmail.com>",
+  "homepage": "http://alfredomariamilano.com/",
   "license": "The MIT License (MIT)",
   "devDependencies": {
     "grunt": "~0.4.2",
