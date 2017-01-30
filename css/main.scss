@@ -56,6 +56,10 @@ Page specific
 
 @import "vendor/unslider/unslider";
 
+.page-lead {
+  background-size: cover;
+}
+
 ul.unslider-wrap.unslider-carousel {
   text-align: center;
   a {
